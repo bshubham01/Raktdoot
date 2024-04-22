@@ -1,0 +1,74 @@
+.post-body{
+    padding: 10px;
+    margin: 2px auto;
+    /* max-width: 720px; */
+}
+
+
+.post{
+    margin: 10px auto;
+    max-width: 1000px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #f2f2f2;
+    margin-top: 20px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.05);
+    background-color: aliceblue;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+}
+
+.post .title {
+    
+    font-style: normal;
+    font-weight: 500;
+}
+.post .title h1 {
+    font-style: normal;
+    margin: 0%;
+    font-weight: 100;
+    text-align: justify;
+    padding: 10px 1px;
+    color: #444
+}
+
+
+.post .post-date{
+    padding: 10px 1px;
+    font-style: normal;
+}
+
+.post-date p{
+    margin-left: 0;
+    padding: 0;
+}
+
+
+.post .body{
+    padding: 10px 1px;
+}
+
+.post .body span{
+    color: crimson;
+}
+
+.post .body article{
+    text-align: justify;
+    font-style: normal;
+    color:black;
+    word-spacing: 5px;
+    
+
+}
+
+.post .createdAt{
+    /* width: 150px; */
+    color: red;
+}
+.post .createdAt p{
+    margin: 0;
+    margin-left: auto;
+    width: 110px;
+    color: red;
+    font-style: normal;
+    font-size: small;
+}

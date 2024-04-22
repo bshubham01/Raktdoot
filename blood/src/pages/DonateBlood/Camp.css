@@ -1,0 +1,49 @@
+.camp-table{
+    overflow-x:auto;
+    margin-bottom: 40px;
+    padding: 10px;
+}    
+
+.camp-table .camp-heading{
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.camp-table .camp-data-table{
+    
+        text-align: start;
+        margin: 2px auto;
+    
+}
+
+.camp-table .camp-data-table .camp-title-row{
+    background-image: url("https://www.transparenttextures.com/patterns/cross-scratches.png");
+    background-color: crimson;
+    color: #fff;
+}
+
+.camp-table .camp-data-table .camp-rows{
+    width: 100%;
+    background-color: #fff;
+    color: crimson;
+}
+
+td{
+    padding: 10px;
+    vertical-align:middle;
+}
+
+
+table, th, td {
+    border: 1.5px solid #750E21;
+    border-collapse: collapse;
+    min-width: 80%;
+
+}
+
+.no-data{
+    text-align: center;
+}

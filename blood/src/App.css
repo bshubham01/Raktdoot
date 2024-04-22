@@ -1,0 +1,36 @@
+nav {
+  color: #fff;
+  display: flex;
+  margin: 0 auto;
+  gap: 10px;
+  align-items: center;
+  background-color: #750E21;
+  /* background-image: url("https://www.transparenttextures.com/patterns/diagonal-striped-brick.png"); */
+  padding: 0 10% 0 10%;
+  /* background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png"); */
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  background-image: url("https://www.transparenttextures.com/patterns/back-pattern.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+}
+
+nav h1 {
+  margin-right: auto;
+  font-family: "Rubik Doodle Shadow", system-ui !important;
+
+}
+
+
+nav a {
+  color: #fff;
+  padding: 4px 10px;
+}
+
+nav .n.active {
+  background-color: white;
+  border-radius: 10px;
+  /* padding: 3px 10px; */
+  color: #555;
+  padding: 8px;
+
+}

@@ -1,0 +1,124 @@
+h1{
+    text-align: center;
+}
+p{
+    max-width: 700px;
+    margin: auto;
+    font-style: normal;
+    font-size: 1.125rem;
+}
+.iron-deficiency{
+    text-align: justify;
+    margin: 60px 15px;
+    /* padding: 10px; */
+}
+.iron-deficiency h1{
+    color: red;
+    font-size: 1.3rem; 
+}
+.iron-deficiency .head{
+    text-align: justify;
+    margin: auto;
+    text-wrap:balance;
+}
+
+
+.iron-deficiency .difference{
+    display: flex;
+    justify-content:space-around;
+    /* align-items: self-start; */
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.iron-deficiency .difference .diff{
+    max-width: 480px;
+    margin-top: 30px;
+}
+.iron-deficiency img{
+    width: 30%;
+}
+
+
+
+.diff img{
+    margin-left: 33%;
+    width: 30%;
+}
+.head2 h1{
+    text-align: center;
+}
+.head2{
+    /* max-width: 620px; */
+    margin: auto;
+    text-align: justify;
+    text-wrap: balance;
+    /* padding: 15px; */
+}
+
+.symtoms-causes .heading{
+    /* padding: 30px;    */
+    text-align: center;
+    
+}
+
+.symtoms-causes .content{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.symtoms-causes .content .con1{
+    max-width: 480px;
+}
+
+.con1 img{
+    margin-left: 33%;
+    width: 30%;
+}
+
+.symtoms-causes .content ul{
+    text-align: start;
+    
+}
+
+.solution-caution{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-wrap: wrap;
+    /* padding: 20px; */
+}
+
+.solution-caution .sc{
+    max-width: 480px;
+    /* padding: 30px; */
+}
+.sc img{
+    margin-left: 33%;
+    width: 30%;
+}
+
+.data h1{
+    text-align: center;
+}
+.data{
+    margin: auto;
+    text-align: justify;
+    text-wrap: balance;
+}
+
+.data ul{
+    text-align: start;
+    max-width: 680px;
+    margin: auto;
+}
+
+hr{
+    /* display: inline; */
+    border: dotted #b81111 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 60px auto 30px auto;
+}

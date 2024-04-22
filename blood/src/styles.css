@@ -1,0 +1,129 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Dokdo&family=Moirai+One&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Doodle+Shadow&family=Rubik+Glitch+Pop&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    
+/* background-image: url("https://www.transparenttextures.com/patterns/gplay.png"); */
+
+
+
+/* font-family: "Rubik Doodle Shadow", system-ui; */
+/* font-family: "Rubik Maps", system-ui; */
+font-family: "Poppins";
+
+}
+:root {
+    --heading-color: #444;
+    --text-color: #999;
+    --primary-color: #8d69f1;
+    --highlight-color: #d13267;
+    --bg-color: #f4f4f4;
+}
+
+form{
+    max-width: 400px;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 6px 6px rgba(0,0,0,0.05);
+    
+
+}
+
+label,input {
+    display: block;
+}
+
+input {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #fff;
+    border: 2px solid #750E21;
+    color: #750E21;
+    padding: 5px;
+    font-family: "Poppins";
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #750E21;
+    color: #fff;
+}
+
+.btn {
+    background-color: #fff;
+    border: 2px solid #750E21;
+    color: #750E21;
+    padding: 5px;
+    font-family: "Poppins";
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #750E21;
+    color: #fff;
+}
+
+form h3{
+    color: #750E21;
+}
+
+.error{
+    color: red;
+    background: pink;
+    border: 1px solid red;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 10px 0;
+}
+
+a{
+    text-decoration: none;
+    color: #777;
+}
+
+label {
+    display: block;
+    margin: 24px auto;
+  }
+  label span {
+    display: block;
+    margin-bottom: 6px;
+  }
+  input, textarea {
+    padding: 8px 6px;
+    font-size: 1em;
+    color: #777;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  textarea {
+    min-height: 160px;
+  }
+
+  .loading{
+    text-align: center;
+    font-weight: 400;
+    font-size: larger;
+    margin-top: 20px;
+  }

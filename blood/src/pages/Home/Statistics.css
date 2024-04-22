@@ -1,0 +1,28 @@
+.items{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.statistics{
+  text-align: center;
+}
+.statistics h1{
+  color:crimson;
+}
+.statistics-item{
+  padding: 20px;
+  max-width: 100%;
+  width: 400px;
+  background-color: #E0F4FF;
+  /* background-image: url("https://www.transparenttextures.com/patterns/gplay.png"); */
+  background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+
+  border-radius: 10px;
+  margin: 10px auto;
+  font-size: 80%;
+
+}

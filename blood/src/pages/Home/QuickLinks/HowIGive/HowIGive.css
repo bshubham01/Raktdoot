@@ -1,0 +1,56 @@
+.donate-blood h1{
+    text-align: center;
+    color: #750E21;
+    padding: 20px;
+}
+
+.donate-blood .one img{
+    width: 55px;
+    height: 55px;
+    padding: 10px;
+}
+.one{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    gap: 10px;
+    margin: auto;
+    max-width: 600px;
+    padding: 10px;
+    margin: 20px auto;
+    
+}
+
+.tips p{
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin:40px 10px;
+
+    
+}
+
+.day{
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px 3px #a4a3a3;
+    padding: 5px;
+    height: 320px;
+    margin: 10px;
+}
+.card-title{
+    border-bottom: 2px solid #d4d1d1;
+    font-size: large;
+}
+.card .tips{
+    max-width: 440px;
+}
+
+.card .tips li::marker{
+    color: #750E21;
+}

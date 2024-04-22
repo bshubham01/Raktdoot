@@ -1,0 +1,95 @@
+.comments{
+
+  max-width: 600px;
+  margin:2px auto;
+  overflow-y: scroll;
+  scroll-behavior: inherit;
+  scroll-margin-block-end:0;
+  height: 350px;
+  background-color: #999;
+  background-image: url("https://www.transparenttextures.com/patterns/food.png");
+  padding: 0%;
+}
+.nocomment{
+
+  width: 600px;
+  margin:2px auto;
+  overflow-y: scroll;
+  height: 0px;
+}
+
+.add-comment{
+  text-align: center;
+  max-width: 400px;
+}
+.project-comments label {
+    margin-bottom: 0px;
+  }
+  .project-comments textarea {
+    min-height: 40px;
+    font-size: 1.5em;
+  }
+  
+  /* comment list */
+  .project-comments h4 {
+    text-align: center;
+    color: crimson;
+  }
+
+  .project-comments li {
+    padding: 16px;
+    padding-bottom: 0%;
+    border: 1px solid #f2f2f2;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.05);
+    background: #fff;
+    border-radius: 15px;
+    list-style-type:none;
+    max-width: 350px;
+    margin: 20px auto;
+    padding: 10px;
+
+   
+  }
+
+  .comment-author {
+    display: flex;
+    align-items: center;
+    
+    color: #d13267 ;
+  }
+  .comment-author p{
+    margin: 0;
+  
+    
+  }
+  .comment-author .avatar {
+    
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  .comment-author img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  .comment-date {
+    color: var(--text-color);
+    font-size: 0.9em;
+    margin: 4px 0 10px;
+  }
+  .comment-date p{
+    margin: 0;
+    width: 110px;
+    margin-left: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: small;
+  }
+  .comment-content {
+    color: var(--text-color);
+    font-size: 0.9em;
+    padding: 10px;
+    max-width: 1px;
+  }
+

@@ -1,0 +1,136 @@
+/* .info{
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    
+
+}
+
+.info .heading{
+    font-size:250%;
+}
+
+.blood-group{
+
+    color: #750E21;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.info ul{
+    
+    display: flex;
+    justify-content:space-around;
+    align-items: stretch;
+    gap: auto;
+    padding: 0.7rem 1rem;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+
+.info li{
+
+
+    
+}
+
+
+.content h4{
+    font-weight: 400;
+    font-style: normal;
+}
+
+.content h1{
+    font-weight: bold;
+    font-size: 200%;
+    color: crimson;
+    
+}
+
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Dokdo&family=Moirai+One&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Doodle+Shadow&family=Rubik+Glitch+Pop&display=swap');
+
+
+
+
+ .info{
+    text-align: center;
+    padding: 20px 5px 20px 5px;
+    margin-right: 0;
+    color: #555;
+ }
+
+ .info .heading{
+    margin: 0 auto 20px auto;
+    font-size: 180%;
+ }
+.blood-group{
+    display: flex;
+    list-style: none;
+    align-items:center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    font-size: 80%;
+    padding-left: 0;
+    
+    
+
+}
+
+.blood-group li{
+    cursor: pointer;
+    font-family: "Rubik Doodle Shadow", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+ .decorate{
+    padding: 10px;
+    outline-style: double;
+    outline-color: crimson;
+    border-radius: 10px;
+    background-color: #FDF0D1;
+    /* color: crimson; */
+}
+
+
+.trans h1{
+    color: crimson;
+}
+.trans{
+    margin: auto 1rem;
+    width:  auto;
+    
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 6px 6px rgba(0,0,0,0.05);
+
+
+/* background-image: url("https://www.transparenttextures.com/patterns/cubes.png"); */
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+/* background-color: #E0F4FF; */
+/* background-image: url("https://www.transparenttextures.com/patterns/gplay.png"); */
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+background-color: #FFF9F8;
+
+}
+
+.trans h2{
+    color: crimson;
+    outline-style: solid;
+    border-radius: 10px;
+    /* width: 100px; */
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    flex-wrap: wrap;
+
+}

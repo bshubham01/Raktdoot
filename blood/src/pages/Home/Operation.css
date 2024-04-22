@@ -1,0 +1,59 @@
+.Operation{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    gap: 1rem;
+    /* padding: 50px; */
+    padding-top: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.op{
+    padding: 30px;
+    border-radius: 10px;
+    min-width: 250px;
+    font-size: 80%;
+    color: #fff;
+}
+
+.op1{
+    background-color: #005B41;
+    background-image: url("https://www.transparenttextures.com/patterns/flowers.png");
+}
+  
+.op2{
+    background-color: #425eb9;
+    background-image: url("https://www.transparenttextures.com/patterns/flowers.png");
+}
+.op3{
+    background-color: #b81111;
+    background-image: url("https://www.transparenttextures.com/patterns/flowers.png");
+}
+.op4{
+    background-color: #1D5B79;
+    background-image: url("https://www.transparenttextures.com/patterns/flowers.png");
+}
+
+.heading{
+    text-align: center;
+    color: #b81111;
+}
+
+
+
+hr{
+    /* display: inline; */
+    border: dotted #b81111 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 60px auto 30px auto;
+}
+
+
+
+.op:active {
+    transform: translateY(4px);
+}
+

@@ -1,0 +1,74 @@
+.profile  {
+    text-align: center;
+    max-width: 1200px;
+    margin: 1% auto;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 6px 6px rgba(0,0,0,0.05);
+    color: crimson;
+  
+}
+.profile-edit{
+    display: inline;
+    float: right;
+}
+
+.profile-image .avatar img{
+    margin-left: 20px;
+    height: 120px;
+    width: 120px;
+}
+
+
+.profile-name{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+
+
+
+.stats{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.stats .stat{
+    width: 440px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px 6px rgba(0,0,0,0.05);
+
+
+
+}
+
+.stat .info img{
+
+    height: 120px;
+    width: 120px;
+    margin: 10px 0;
+    
+}
+.stat .info h1{
+    margin: 0;
+}
+
+.stat .info p{
+    font-weight: 500;
+    color: #555;
+}
+
+.blog{
+    font-weight: 600;
+    color: #555;
+    padding: 15px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px 6px rgba(0,0,0,0.05);
+    max-width: 440px;
+}
